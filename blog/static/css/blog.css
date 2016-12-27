@@ -1,0 +1,38 @@
+.page_header {
+    background-color: #71C7F5; /*Цвет фона*/
+    margin-top: 0px; /*Отступ сверху*/
+    padding: 20px 20px 20px 40px; /*Поля сверху, справа, снизу и слева*/
+}
+.page_header h1, .page_header h1 a, .page_header h1 a:visited, .page_header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none; /*Оформление текста*/    
+}
+.content {
+    margin-left: 40px; /*Отступ слева*/
+}
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+.date {
+    float: right; /*Выравнивание элемента*/
+    color: #828282;
+}
+.save {
+    float: right;
+}
+.post_form textarea, .post_form input{
+    width: 100%;
+}
+.top_menu, .top_menu:hover, .top_menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+.post {
+    margin-bottom: 70px;
+}
+.post h1 a, .post h1 a:visited {
+    color: #000000;
+}
